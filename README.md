@@ -53,10 +53,10 @@ The script will perform a YouTube search based on your voice input, list the vid
 
 The celluloid library is used for video playback, which may require additional setup or alternative libraries depending on your environment.
 Make sure your microphone and audio settings are properly configured for speech recognition to work effectively.
+(Initially I planned to use VLC and was almost over but it was not compatible with my Linux Machine so I had o switch to celluloid. WIll develop it in future for VLC too...) 
 
 ## Troubleshooting
 
 1. **Speech Recognition Issues:** Ensure your microphone is working correctly and the audio is clear.
 2. **YouTube Search Issues:** The web scraping part might fail if YouTube changes its page structure. Adjust the BeautifulSoup selectors as needed.
-3. **Video Playback Issues:** Ensure you have the necessary video playback libraries installed. Celluloid may require configuration based on your system.
-
+3. **Video Playback Issues:** Ensure you have the necessary video playback libraries installed. Celluloid may require configuration based on your system. 
